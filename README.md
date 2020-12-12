@@ -4,7 +4,7 @@
     - Install GIT
     - EKS Cluster
 # EKS Cluster Setup:
-  [EKS Cluster Setup](https://github.com/Naresh240/eks-cluster-setup/blob/main/README.md)
+  [EKS Cluster Setup](https://github.com/cloudtechmasters/eks-cluster-setup/blob/master/README.md)
 # Install GIT:
     yum install git -y
 # Install npm:
@@ -15,7 +15,7 @@
     yum install docker -y
     service docker start
 # Clone code from github:
-    git clone https://github.com/Naresh240/HPA-NodejsApp
+    git clone https://github.com/cloudtechmasters/HPA-NodejsApp.git
     cd HPA-NodejsApp
 # Build Maven Artifact:
     npm install
