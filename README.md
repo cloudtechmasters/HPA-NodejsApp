@@ -20,11 +20,11 @@
 # Build Maven Artifact:
     npm install
 # Build Docker image for Springboot Application
-    docker build -t naresh240/nodejs-hpa-k8s:v1 .
+    docker build -t cloudtechmasters/nodejs-hpa-k8s:v1 .
 # Docker login
     docker login
 # Push docker image to dockerhub
-    docker push naresh240/nodejs-hpa-k8s:v1:v1
+    docker push cloudtechmasters/nodejs-hpa-k8s:v1:v1
 # Deploy nodejs Application using below commands:
     kubectl apply -f deployment.yml
     kubectl apply -f service.yml
